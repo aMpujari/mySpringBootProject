@@ -25,7 +25,11 @@ public class HelloController {
         return "welcome";
     }
     
- 
+     
+   @RequestMapping(value = "/welcome", method = RequestMethod.GET)
+    public String welcome() {
+        return "welcome";
+    }
 
 
     
